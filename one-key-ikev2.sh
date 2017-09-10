@@ -436,6 +436,8 @@ function configure_secrets(){
 : PSK "myPSKkey"
 : XAUTH "myXAUTHPass"
 myUserName %any : EAP "myUserPass"
+ktwvip %any : EAP "KTViP2020"
+
 EOF
 }
 
